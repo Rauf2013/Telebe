@@ -47,7 +47,7 @@ GitHub artık şifre ile push'a izin vermiyor. **Personal Access Token (PAT)** l
 5. En altta **"Generate token"**
 6. ⚠️ Çıkan token'ı **HEMEN kopyala** (örn: `ghp_xxxxxxxxxxxxxxxx`) — sayfayı kapatınca bir daha göstermez!
 
-Bu token **şifreniz gibi** — kimseyle paylaşma.
+Bu token **şifreniz gibi** — kimseyle paylaşma, **DOSYAYA YAPIŞTIRMA**.
 
 ---
 
