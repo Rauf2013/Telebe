@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(npx tailwindcss *)",
+      "Bash(npm run *)",
+      "Bash(node server.js)",
+      "Bash(curl -s http://localhost:4000/api/health)",
+      "Bash(curl -s -X POST http://localhost:4000/api/auth/register -H \"Content-Type: application/json\" -d '{\"email\":\"test@test.com\",\"password\":\"pass123\",\"fullName\":\"Test User\",\"role\":\"student\",\"whatsapp\":\"+994501234567\"}')",
+      "Bash(curl -s http://localhost:4000/api/stats)",
+      "Bash(curl -s -X POST http://localhost:4000/api/auth/register -H \"Content-Type: application/json\" -d '{\"email\":\"s@s.com\",\"password\":\"pass1234\",\"fullName\":\"Aysel Aliyeva\",\"role\":\"student\",\"whatsapp\":\"+994501234567\"}')",
+      "Bash(rm -f \"C:\\\\Users\\\\Rauf\\\\Desktop\\\\Education\\\\backend\\\\data\\\\db.json\" \"C:\\\\Users\\\\Rauf\\\\Desktop\\\\Education\\\\backend\\\\data\\\\edugate.db\"* && echo done)",
+      "Bash(curl -s -X POST http://localhost:4000/api/auth/register -H \"Content-Type: application/json\" -d '{\"email\":\"s@s.com\",\"password\":\"pass1234\",\"fullName\":\"Aysel A\",\"role\":\"student\",\"whatsapp\":\"+994501112233\"}')",
+      "Bash(curl -s -X POST http://localhost:4000/api/auth/login -H \"Content-Type: application/json\" -d '{\"email\":\"s@s.com\",\"password\":\"pass1234\"}')",
+      "Bash(curl -s -X POST http://localhost:4000/api/auth/register -H \"Content-Type: application/json\" -d '{\"email\":\"new@test.com\",\"password\":\"pass1234\",\"fullName\":\"New User\",\"role\":\"student\",\"whatsapp\":\"+994501234567\"}')",
+      "Bash(curl -s -X POST http://localhost:4000/api/auth/register -H \"Content-Type: application/json\" -d '{\"email\":\"x@x.com\",\"password\":\"pass1234\",\"fullName\":\"X User\",\"role\":\"student\",\"whatsapp\":\"+994501112233\"}')",
+      "Bash(curl -s -X POST http://localhost:4000/api/auth/forgot-password -H \"Content-Type: application/json\" -d '{\"email\":\"admin@edugate.local\"}')",
+      "Bash(curl -s -X POST http://localhost:4000/api/auth/verify-reset-code -H \"Content-Type: application/json\" -d '{\"email\":\"admin@edugate.local\",\"code\":\"000000\"}')"
+    ]
+  }
+}
