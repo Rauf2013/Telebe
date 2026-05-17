@@ -14,13 +14,9 @@ build/
 .env.production
 **/.env
 
-# Database files (SQLite)
-**/data/*.db
-**/data/*.db-journal
-**/data/*.db-wal
-**/data/*.db-shm
-**/data/*
-!**/data/.gitkeep
+# Database files (SQLite) — sadece backend/data/ klasörü
+backend/data/*
+!backend/data/.gitkeep
 
 # Uploaded files
 **/uploads/*
